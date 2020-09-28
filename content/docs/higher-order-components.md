@@ -10,6 +10,7 @@ Concretely, **a higher-order component is a function that takes a component and 
 
 ```js
 const EnhancedComponent = higherOrderComponent(WrappedComponent);
+example: const IronMan = withSuit( TonyStark);
 ```
 
 Whereas a component transforms props into UI, a higher-order component transforms a component into another component.
